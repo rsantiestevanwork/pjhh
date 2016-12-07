@@ -39,7 +39,7 @@ do_action( 'bizlight_action_footer' );
  *
  * @hooked null
  */
-//do_action( 'bizlight_action_after_footer' );
+do_action( 'bizlight_action_after_footer' );
 
 /**
  * bizlight_action_after hook

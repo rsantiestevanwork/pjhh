@@ -12,8 +12,22 @@
  * @package Bizlight
  */
 
-get_header(); ?>
-<div class="wrapper page-inner-title">
+get_header(); 
+$pageinnertitle = "page-inner-title";
+$pagetitle = get_the_title();
+
+if($pagetitle=="Contact Us"){
+	$pageinnertitle = "page-inner-title-contact";
+}
+if($pagetitle=="About Us"){
+	$pageinnertitle = "page-inner-title-about";
+}
+if($pagetitle=="Services"){
+	$pageinnertitle = "page-inner-title-service";
+}
+
+?>
+<div class="wrapper <?php echo($pageinnertitle);?>">
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->

@@ -720,11 +720,42 @@ dd a{
   padding-top: 80px;
   margin-bottom: 60px;
 }
+.page-inner-title-about {
+  background-image: url(assets/img/aboutusimage.png);
+  background-position: center top;
+  background-color: #565656;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 70px;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+.page-inner-title-service {
+  background-image: url(assets/img/servicesimage.png);
+  background-position: center top;
+  background-color: #565656;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+.page-inner-title-contact {
+  background-image: url(assets/img/contactimage.png);
+  background-position: center top;
+  background-color: #565656;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
 body.home .page-inner-title {
   padding-top: 120px;
 }
 .page-inner-title .entry-title,
-.page-inner-title .page-title{
+.page-inner-title .page-title,
+.page-inner-title-about .entry-title,
+.page-inner-title-service .entry-title,
+.page-inner-title-contact .entry-title{
   padding-left: 15px;
   padding-right: 15px;
   color: #ffffff!important;
